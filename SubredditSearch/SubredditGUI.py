@@ -11,9 +11,9 @@ def printDict(dic):      #Prints a dict in desired form
 
 reddit = praw.Reddit(client_id = 'qT0K97rukViXDg', #IMPORTANT: Change these fields to your corresponding reddit application fields 
 									 			   #https://redditclient.readthedocs.io/en/latest/oauth/
-					 client_secret = 'etbDklfahk4lm45DVgWYl8jzpVQ', 
-					 username = 'DoubleA26',
-					 password = 'poolales123',
+					 client_secret = '', #paste your client secret from the reddit application page
+					 username = '', #enter your username for reddit
+					 password = '', #enter your password for reddit
 					 user_agent = 'whatever') #this field wont affect anything
 
 ROOT = tk.Tk()  #Create base for GUI
